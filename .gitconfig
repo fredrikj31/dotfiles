@@ -6,3 +6,4 @@
     pusho = push -u origin HEAD
     lg = log --pretty=oneline -n 20 --graph --abbrev-commit
     c- = checkout -
+    amend = commit --amend --no-edit
