@@ -1,0 +1,8 @@
+[user]
+	email = fredrik1206@gmail.com
+	name = Fredrik Johansen
+
+[alias]
+    pusho = push -u origin HEAD
+    lg = log --pretty=oneline -n 20 --graph --abbrev-commit
+    c- = checkout -
