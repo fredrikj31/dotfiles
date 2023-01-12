@@ -1,9 +1,11 @@
 [user]
 	email = fredrik1206@gmail.com
 	name = Fredrik Johansen
-
+[credential]
+	helper = store
 [alias]
     pusho = push -u origin HEAD
-    lg = log --pretty=oneline -n 20 --graph --abbrev-commit
     c- = checkout -
     amend = commit --amend --no-edit
+    browse = ls-remote --get-url origin
+    lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
