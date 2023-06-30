@@ -1,6 +1,8 @@
 [user]
 	email = fredrik1206@gmail.com
 	name = Fredrik Johansen
+[credential]
+	helper = store
 [alias]
     pusho = push -u origin HEAD
     c- = checkout -
